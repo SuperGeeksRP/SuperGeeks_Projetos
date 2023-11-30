@@ -6,6 +6,7 @@
 #card1, #card3 , #card5 , #card7 , #card9{
     background-color: brown;
 }
+
 #card2 , #card4 , #card6 , #card8{
     background-color:brown;
 }
@@ -19,7 +20,11 @@
     margin: 10px;
     padding: 20px;
     height: 90%;
+    transition: transform 0.3s ease;
 }
+.card:hover {
+    transform: translateY(-10px);
+  }
 .card-container {
     display:inline-block;
     flex-wrap: wrap; /*flex-wrap: wrap permite que os cards quebrem para a próxima linha quando não houver espaço suficiente na largura do contêiner.*/
