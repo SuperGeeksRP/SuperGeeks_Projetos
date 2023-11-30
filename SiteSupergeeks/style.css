@@ -60,3 +60,22 @@ footer{
     border-radius: 30px; /* Ajuste o valor conforme necessário */
     overflow: hidden;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+      width: 100%;
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
